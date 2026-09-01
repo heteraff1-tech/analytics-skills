@@ -11,6 +11,7 @@ from pathlib import Path
 
 
 TEMPLATE_MAP = {
+    "analytics-profile.template.md": "analytics-profile.md",
     "project-brief.template.md": "project-brief.md",
     "thinking.template.md": "thinking.md",
     "goals.template.csv": "goals.csv",
