@@ -1,0 +1,15 @@
+[submodule "upstreams/clamp-analytics-skills"]
+	path = upstreams/clamp-analytics-skills
+	url = https://github.com/clamp-sh/analytics-skills.git
+[submodule "upstreams/borghei-claude-skills"]
+	path = upstreams/borghei-claude-skills
+	url = https://github.com/borghei/Claude-Skills.git
+[submodule "upstreams/rampstack-claude-skills"]
+	path = upstreams/rampstack-claude-skills
+	url = https://github.com/rampstackco/claude-skills.git
+[submodule "upstreams/alireza-claude-skills"]
+	path = upstreams/alireza-claude-skills
+	url = https://github.com/alirezarezvani/claude-skills.git
+[submodule "upstreams/growthbook-skills"]
+	path = upstreams/growthbook-skills
+	url = https://github.com/growthbook/skills.git

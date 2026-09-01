@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "upstream_files_are_authoritative_within_scope": true,
+    "do_not_edit_upstream_rules": true,
+    "load_only_routed_files": true,
+    "pin_commits": true
+  },
+  "sources": [
+    {
+      "id": "clamp",
+      "repository": "clamp-sh/analytics-skills",
+      "submodule": "upstreams/clamp-analytics-skills",
+      "commit": "b9e06c5131a6060114e68893bc34fc77b65a9552",
+      "license": "MIT",
+      "selected_paths": [
+        "skills/analytics-diagnostic-method/SKILL.md",
+        "skills/channel-and-funnel-quality/SKILL.md",
+        "skills/traffic-change-diagnosis/SKILL.md",
+        "skills/anomaly-detection-time-series/SKILL.md",
+        "skills/metric-context-and-benchmarks/SKILL.md",
+        "skills/event-schema-author/SKILL.md",
+        "skills/causal-query-classifier/SKILL.md",
+        "skills/causal-dag-builder/SKILL.md",
+        "skills/causal-evidence-checklist/SKILL.md",
+        "skills/experiment-result-reader/SKILL.md",
+        "skills/bayesian-experiment-reader/SKILL.md",
+        "skills/sequential-monitoring/SKILL.md",
+        "tool-maps/"
+      ]
+    },
+    {
+      "id": "borghei",
+      "repository": "borghei/Claude-Skills",
+      "submodule": "upstreams/borghei-claude-skills",
+      "commit": "ddca910e95580c63a236303fc1534054f0f14d4c",
+      "license": "Commons Clause License Condition v1.0 + MIT",
+      "commercial_restriction": true,
+      "selected_paths": [
+        "product-team/product-analytics/SKILL.md",
+        "product-team/product-analytics/references/metric-tree-and-north-star.md",
+        "product-team/product-analytics/references/cohort-retention-and-funnel-analysis.md",
+        "product-team/product-analytics/references/instrumentation-and-event-design.md",
+        "product-team/product-analytics/scripts/metric_tree_designer.py",
+        "product-team/product-analytics/scripts/retention_cohort_analyzer.py",
+        "product-team/product-analytics/scripts/event_taxonomy_auditor.py"
+      ]
+    },
+    {
+      "id": "rampstack",
+      "repository": "rampstackco/claude-skills",
+      "submodule": "upstreams/rampstack-claude-skills",
+      "commit": "a67dd34c609f034c0cfd736a348659bbdf1605bf",
+      "license": "MIT",
+      "selected_paths": [
+        "skills/discovery-research-synthesis/SKILL.md",
+        "skills/product-analytics-setup/SKILL.md",
+        "skills/analytics-strategy/SKILL.md",
+        "skills/okr-design/SKILL.md"
+      ]
+    },
+    {
+      "id": "alireza",
+      "repository": "alirezarezvani/claude-skills",
+      "submodule": "upstreams/alireza-claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "license": "MIT",
+      "selected_paths": [
+        "research-ops/skills/product-research/SKILL.md",
+        "research-ops/skills/product-research/scripts/insight_synthesizer.py",
+        "product-team/skills/product-discovery/SKILL.md",
+        "product-team/skills/product-discovery/scripts/assumption_mapper.py",
+        "product-team/skills/product-analytics/SKILL.md",
+        "product-team/skills/product-analytics/scripts/metrics_calculator.py"
+      ]
+    },
+    {
+      "id": "growthbook",
+      "repository": "growthbook/skills",
+      "submodule": "upstreams/growthbook-skills",
+      "commit": "a2b9c1d2e519ad9abacf7d69277f76afcd0b3959",
+      "license": "MIT",
+      "selected_paths": [
+        "skills/experiments/SKILL.md",
+        "skills/experiments/references/experiment-design.md",
+        "skills/experiments/references/experiment-analyze.md"
+      ]
+    }
+  ]
+}
