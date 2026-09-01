@@ -15,6 +15,7 @@
       "license": "MIT",
       "selected_paths": [
         "skills/analytics-diagnostic-method/SKILL.md",
+        "skills/analytics-profile-setup/SKILL.md",
         "skills/channel-and-funnel-quality/SKILL.md",
         "skills/traffic-change-diagnosis/SKILL.md",
         "skills/anomaly-detection-time-series/SKILL.md",
