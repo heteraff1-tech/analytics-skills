@@ -7,7 +7,8 @@
 3. Inventory every input and classify it using the main skill.
 4. Record missing input classes as gaps.
 5. Preserve the user's thoughts separately from factual context.
-6. Create `00-manifest.md`.
+6. If quantitative analysis is in scope, create or refresh `analytics-profile.md` using the exact upstream `analytics-profile-setup` template. Reuse verified facts from `project-brief.md`; leave unknown fields explicit and do not invent benchmark values.
+7. Create `00-manifest.md`.
 
 Do not ask a long questionnaire. When the decision can be inferred, proceed and
 mark the inference. Ask at most one blocking question.
@@ -66,7 +67,7 @@ Select the interview/research router row.
 2. Cluster across artifacts only after artifact-level coding.
 3. Name specific patterns, not broad categories.
 4. Count independent sources.
-5. preserve dissent, counterexamples, and segment differences.
+5. Preserve dissent, counterexamples, and segment differences.
 6. Separate reported attitudes from observed behavior.
 7. Derive product implications as `MODEL_INFERENCE`.
 8. Identify thin patterns and coverage gaps.
