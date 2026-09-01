@@ -36,7 +36,7 @@ submodules и закреплены на конкретных commit SHA. Фай�
 Он самостоятельно маршрутизирует работу между:
 
 - Clamp: диагностика метрик, funnels, cohorts, anomalies, causal checks,
-  experiments;
+  experiments и калибровочный analytics profile;
 - Borghei: North Star, metric tree, instrumentation, retention tooling;
 - RampStack: качественный research synthesis, analytics setup/strategy, OKR;
 - Alireza Rezvani: research discipline и детерминированные Python-утилиты;
@@ -46,8 +46,8 @@ submodules и закреплены на конкретных commit SHA. Фай�
 
 ```bash
 git clone --recurse-submodules --branch product-research-suite \
-  https://github.com/heteraff1-tech/analytics-skills.git
-cd analytics-skills
+  https://github.com/heteraff1-tech/analytics-skills.git product-research-suite
+cd product-research-suite
 python3 scripts/validate_bundle.py
 ```
 
@@ -65,6 +65,7 @@ commit в GitHub.
 
 ```text
 input/
+├── analytics-profile.md
 ├── project-brief.md
 ├── thinking.md
 ├── goals.csv
